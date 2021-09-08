@@ -6,24 +6,24 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+If you have changes that you made only on GitHub, you won't have them on your local repository. Therefore, you will need to manually pull changes from your remote reository into your local repository.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+Forks clone git projects to github. Clones clone git projects onto your local repository and branches are working directories that exist only on your local repository. 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
-
+In case the files get mixed up or something goes wrong, you have the last known state of the remote safely in your local repository so you can just push it back into the remote repository and you can start again.   
+   
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
-
+You could collaborate on a call. It would be easier to communicate. However, you wouldn't be able to request to push and pull changes or any of the other git and github features. 
+  
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+ If you are collaborating with others you would want to make changes in a seperate branch so you wouldn't affect the master branch. Then, you could make a pull request to get permission to merge yoru branch and the master branch. 
